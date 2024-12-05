@@ -1,0 +1,126 @@
+Volatility 3 Framework 2.12.0
+
+PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Notes	Hexdump	Disasm
+
+2844	explorer.exe	0x3d70000	0x3d70fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................	
+0x3d70000:	add	byte ptr [rax], al
+0x3d70002:	add	byte ptr [rax], al
+0x3d70004:	add	byte ptr [rax], al
+0x3d70006:	add	byte ptr [rax], al
+0x3d70008:	add	byte ptr [rax], al
+0x3d7000a:	add	byte ptr [rax], al
+0x3d7000c:	add	byte ptr [rax], al
+0x3d7000e:	add	byte ptr [rax], al
+0x3d70010:	add	byte ptr [rax], al
+0x3d70012:	add	byte ptr [rax], al
+0x3d70014:	add	byte ptr [rax], al
+0x3d70016:	add	byte ptr [rax], al
+0x3d70018:	add	byte ptr [rax], al
+0x3d7001a:	add	byte ptr [rax], al
+0x3d7001c:	add	byte ptr [rax], al
+0x3d7001e:	add	byte ptr [rax], al
+0x3d70020:	add	byte ptr [rax], al
+0x3d70022:	add	byte ptr [rax], al
+0x3d70024:	add	byte ptr [rax], al
+0x3d70026:	add	byte ptr [rax], al
+0x3d70028:	add	byte ptr [rax], al
+0x3d7002a:	add	byte ptr [rax], al
+0x3d7002c:	add	byte ptr [rax], al
+0x3d7002e:	add	byte ptr [rax], al
+0x3d70030:	add	byte ptr [rax], al
+0x3d70032:	add	byte ptr [rax], al
+0x3d70034:	add	byte ptr [rax], al
+0x3d70036:	add	byte ptr [rax], al
+0x3d70038:	add	byte ptr [rax], al
+0x3d7003a:	add	byte ptr [rax], al
+0x3d7003c:	add	byte ptr [rax], al
+0x3d7003e:	add	byte ptr [rax], al
+2844	explorer.exe	0x83c0000	0x83c0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 3c 08 00 00 00 00 00 00 00 00 00 00 00 00 ..<.............
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................	
+0x83c0000:	add	byte ptr [rax], al
+0x83c0002:	add	byte ptr [rax], al
+0x83c0004:	add	byte ptr [rax], al
+0x83c0006:	add	byte ptr [rax], al
+0x83c0008:	add	byte ptr [rax], al
+0x83c000a:	add	byte ptr [rax], al
+0x83c000c:	add	byte ptr [rax], al
+0x83c000e:	add	byte ptr [rax], al
+0x83c0010:	add	byte ptr [rax], al
+0x83c0012:	add	byte ptr [rax], al
+0x83c0014:	add	byte ptr [rax], al
+0x83c0016:	add	byte ptr [rax], al
+0x83c0018:	add	byte ptr [rax], al
+0x83c001a:	add	byte ptr [rax], al
+0x83c001c:	add	byte ptr [rax], al
+0x83c001e:	add	byte ptr [rax], al
+0x83c0020:	add	byte ptr [rax], al
+0x83c0022:	cmp	al, 8
+0x83c0024:	add	byte ptr [rax], al
+0x83c0026:	add	byte ptr [rax], al
+0x83c0028:	add	byte ptr [rax], al
+0x83c002a:	add	byte ptr [rax], al
+0x83c002c:	add	byte ptr [rax], al
+0x83c002e:	add	byte ptr [rax], al
+0x83c0030:	add	byte ptr [rax], al
+0x83c0032:	add	byte ptr [rax], al
+0x83c0034:	add	byte ptr [rax], al
+0x83c0036:	add	byte ptr [rax], al
+0x83c0038:	add	byte ptr [rax], al
+0x83c003a:	add	byte ptr [rax], al
+0x83c003c:	add	byte ptr [rax], al
+0x83c003e:	add	byte ptr [rax], al
+2216	ServerManager.	0x491d070000	0x491d0effff	VadS	PAGE_EXECUTE_READWRITE	13	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 4c 26 bd 1c 53 39 00 01 ........L&..S9..
+ee ff ee ff 02 00 00 00 20 01 07 1d 49 00 00 00 ........ ...I...
+20 01 07 1d 49 00 00 00 00 00 07 1d 49 00 00 00  ...I.......I...
+00 00 07 1d 49 00 00 00 7f 00 00 00 00 00 00 00 ....I...........	
+0x491d070000:	add	byte ptr [rax], al
+0x491d070002:	add	byte ptr [rax], al
+0x491d070004:	add	byte ptr [rax], al
+0x491d070006:	add	byte ptr [rax], al
+0x491d070008:	mov	ebp, 0x39531c
+0x491d07000f:	add	esi, ebp
+1944	FTK Imager.exe	0x9fe0000	0x9fe0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 fe 09 00 00 00 00 00 00 00 00 00 00 00 00 ................
+10 00 fe 09 00 00 00 00 00 00 00 00 00 00 00 00 ................
+20 00 fe 09 00 00 00 00 00 00 00 00 00 00 00 00  ...............	
+0x9fe0000:	add	byte ptr [eax], al
+0x9fe0002:	add	byte ptr [eax], al
+0x9fe0004:	add	byte ptr [eax], al
+0x9fe0006:	add	byte ptr [eax], al
+0x9fe0008:	add	byte ptr [eax], al
+0x9fe000a:	add	byte ptr [eax], al
+0x9fe000c:	add	byte ptr [eax], al
+0x9fe000e:	add	byte ptr [eax], al
+0x9fe0010:	add	byte ptr [eax], al
+0x9fe0012:	dec	byte ptr [ecx]
+0x9fe0014:	add	byte ptr [eax], al
+0x9fe0016:	add	byte ptr [eax], al
+0x9fe0018:	add	byte ptr [eax], al
+0x9fe001a:	add	byte ptr [eax], al
+0x9fe001c:	add	byte ptr [eax], al
+0x9fe001e:	add	byte ptr [eax], al
+0x9fe0020:	adc	byte ptr [eax], al
+0x9fe0022:	dec	byte ptr [ecx]
+0x9fe0024:	add	byte ptr [eax], al
+0x9fe0026:	add	byte ptr [eax], al
+0x9fe0028:	add	byte ptr [eax], al
+0x9fe002a:	add	byte ptr [eax], al
+0x9fe002c:	add	byte ptr [eax], al
+0x9fe002e:	add	byte ptr [eax], al
+0x9fe0030:	and	byte ptr [eax], al
+0x9fe0032:	dec	byte ptr [ecx]
+0x9fe0034:	add	byte ptr [eax], al
+0x9fe0036:	add	byte ptr [eax], al
+0x9fe0038:	add	byte ptr [eax], al
+0x9fe003a:	add	byte ptr [eax], al
+0x9fe003c:	add	byte ptr [eax], al
+0x9fe003e:	add	byte ptr [eax], al

@@ -1,0 +1,39 @@
+Volatility 3 Framework 2.12.0
+
+PID	Process	Args
+
+4	System	Required memory at 0x20 is not valid (process exited?)
+220	smss.exe	\SystemRoot\System32\smss.exe
+300	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+364	wininit.exe	wininit.exe
+452	services.exe	C:\Windows\system32\services.exe
+460	lsass.exe	C:\Windows\system32\lsass.exe
+548	svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch
+584	svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS
+656	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+764	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs
+808	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService
+896	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService
+508	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+1076	spoolsv.exe	C:\Windows\System32\spoolsv.exe
+1136	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+1160	wlms.exe	C:\Windows\system32\wlms\wlms.exe
+1540	svchost.exe	C:\Windows\System32\svchost.exe -k termsvcs
+1560	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+1188	msdtc.exe	C:\Windows\System32\msdtc.exe
+1420	smss.exe	Required memory at 0x7f60017f020 is not valid (process exited?)
+2060	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+2144	winlogon.exe	winlogon.exe
+2924	LogonUI.exe	Required memory at 0x7f6a4943020 is not valid (process exited?)
+3016	dwm.exe	"dwm.exe"
+2844	explorer.exe	C:\Windows\Explorer.EXE
+2324	taskhostex.exe	taskhostex.exe 
+2216	ServerManager.	"C:\Windows\system32\ServerManager.exe" 
+752	wlrmdr.exe	Required memory at 0x7f6eef6c020 is not valid (process exited?)
+1800	qTbZGdHw.exe	C:\Windows\qTbZGdHw.exe
+948	cmd.exe	Required memory at 0x7ee0e020 is not valid (process exited?)
+2132	LiDseDHx.exe	C:\Windows\LiDseDHx.exe
+648	cmd.exe	Required memory at 0x7eb7d020 is not valid (process exited?)
+2892	cmd.exe	Required memory at 0x7f1df020 is not valid (process exited?)
+2244	calc.exe	calc.exe  
+1944	FTK Imager.exe	"C:\Program Files (x86)\AccessData\FTK Imager\FTK Imager.exe" 

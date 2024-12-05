@@ -1,0 +1,40 @@
+Volatility 3 Framework 2.12.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+1944	2844	FTK Imager.exe	0x7c68840	18	-	2	True	2021-04-16 20:25:37.000000 UTC	N/A	Disabled
+2060	1420	csrss.exe	0xb592080	9	-	2	False	2021-04-16 20:21:54.000000 UTC	N/A	Disabled
+2144	1420	winlogon.exe	0x19410640	3	-	2	False	2021-04-16 20:21:54.000000 UTC	N/A	Disabled
+2132	452	LiDseDHx.exe	0x1cd22280	3	-	0	True	2021-04-16 20:24:33.000000 UTC	N/A	Disabled
+752	2144	wlrmdr.exe	0x1e366340	0	-	2	False	2021-04-16 20:22:36.000000 UTC	2021-04-16 20:25:35.000000 UTC	Disabled
+1420	220	smss.exe	0x1e37b980	0	-	2	False	2021-04-16 20:21:54.000000 UTC	2021-04-16 20:21:54.000000 UTC	Disabled
+2244	2892	calc.exe	0x1e37e280	3	-	0	True	2021-04-16 20:25:19.000000 UTC	N/A	Disabled
+1188	452	msdtc.exe	0x1e434980	10	-	0	False	2021-04-16 23:05:12.000000 UTC	N/A	Disabled
+1800	452	qTbZGdHw.exe	0x1e4e0840	3	-	0	True	2021-04-16 20:23:40.000000 UTC	N/A	Disabled
+2324	452	taskhostex.exe	0x1e4eb1c0	7	-	2	False	2021-04-16 20:22:04.000000 UTC	N/A	Disabled
+2216	1852	ServerManager.	0x1e5662c0	11	-	2	False	2021-04-16 20:22:04.000000 UTC	N/A	Disabled
+3016	2144	dwm.exe	0x1e60b6c0	7	-	2	False	2021-04-16 20:21:54.000000 UTC	N/A	Disabled
+808	452	svchost.exe	0x1e60d480	25	-	0	False	2021-04-16 23:03:08.000000 UTC	N/A	Disabled
+508	452	svchost.exe	0x1e615980	18	-	0	False	2021-04-16 23:03:09.000000 UTC	N/A	Disabled
+1076	452	spoolsv.exe	0x1e725980	11	-	0	False	2021-04-16 23:03:09.000000 UTC	N/A	Disabled
+1136	452	svchost.exe	0x1e76e980	13	-	0	False	2021-04-16 23:03:10.000000 UTC	N/A	Disabled
+1160	452	wlms.exe	0x1e774980	3	-	0	False	2021-04-16 23:03:10.000000 UTC	N/A	Disabled
+1560	452	svchost.exe	0x1e7ca980	4	-	0	False	2021-04-16 23:03:10.000000 UTC	N/A	Disabled
+1540	452	svchost.exe	0x1e7cc980	16	-	0	False	2021-04-16 23:03:10.000000 UTC	N/A	Disabled
+648	1800	cmd.exe	0x1e86b080	0	-	0	False	2021-04-16 20:24:34.000000 UTC	2021-04-16 20:24:42.000000 UTC	Disabled
+2892	2132	cmd.exe	0x1e893980	0	-	0	False	2021-04-16 20:24:44.000000 UTC	2021-04-16 20:25:26.000000 UTC	Disabled
+2600	924	Taskmgr.exe	0x1e8ba7c0	0	-	-	False	2021-04-16 20:19:10.000000 UTC	2021-04-16 20:19:56.000000 UTC	Disabled
+548	452	svchost.exe	0x1e95c580	6	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+584	452	svchost.exe	0x1e96b480	9	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+764	452	svchost.exe	0x1e9b1980	33	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+656	452	svchost.exe	0x1e9b3980	12	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+2844	956	explorer.exe	0x1e9ca080	45	-	2	False	2021-04-16 20:22:04.000000 UTC	N/A	Disabled
+948	1800	cmd.exe	0x1eba6980	0	-	0	False	2021-04-16 20:23:40.000000 UTC	2021-04-16 20:24:23.000000 UTC	Disabled
+896	452	svchost.exe	0x1ebdf600	17	-	0	False	2021-04-16 23:03:08.000000 UTC	N/A	Disabled
+460	364	lsass.exe	0x1f121080	6	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+300	292	csrss.exe	0x1f14f600	8	-	0	False	2021-04-16 23:03:06.000000 UTC	N/A	Disabled
+220	4	smss.exe	0x1f16d040	3	-	N/A	False	2021-04-16 23:03:05.000000 UTC	N/A	Disabled
+4	0	System	0x1f66d740	85	-	N/A	False	2021-04-16 23:03:05.000000 UTC	N/A	Disabled
+452	364	services.exe	0x1f6ac080	8	-	0	False	2021-04-16 23:03:07.000000 UTC	N/A	Disabled
+364	292	wininit.exe	0x1f72c2c0	2	-	0	False	2021-04-16 23:03:06.000000 UTC	N/A	Disabled
+2924	2144	LogonUI.exe	0x1f734080	0	-	2	False	2021-04-16 20:21:54.000000 UTC	2021-04-16 20:22:04.000000 UTC	Disabled
